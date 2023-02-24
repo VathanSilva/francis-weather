@@ -62,12 +62,12 @@ function Login() {
     <div className="form">
       <form onSubmit={handleSubmit}>
         <div className="input-container">
-          <label>Username </label>
+          <label className="text-white">Username </label>
           <input type="text" name="uname" required placeholder="UserName"/>
           {renderErrorMessage("uname")}
         </div>
         <div className="input-container">
-          <label>Password </label>
+          <label className="text-white">Password </label>
           <input type="password" name="pass" required placeholder="Password"/>
           {renderErrorMessage("pass")}
         </div>
@@ -82,7 +82,7 @@ function Login() {
     <div className="main1">
     <div className="Login">
       <div className="login-form">
-        <div className="title">Sign In</div>
+        <div className="title text-white">Sign In</div>
         {isSubmitted ? <div>User is successfully logged in</div> : renderForm}
       </div>
     </div>

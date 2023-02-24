@@ -3,7 +3,8 @@
 }
 
 .main {
-  background: linear-gradient(-60deg, #0d6bad, #28eda7, #e73c7e, #f54ca4);
+  /* background: linear-gradient(-60deg, #788008, #06549e, #7c0b36, #882759); */
+  background-image: url('../src/components/JackSonSilva_beautiful_weather_dark_background_only_no_wording__e4204c53-08e1-4f9c-a9c7-aba337f2fa3a.png');
   position: absolute;
   position: relative;
   margin-top: 0;

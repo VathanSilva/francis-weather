@@ -59,7 +59,8 @@ input[type="submit"]:hover {
 }
 
 .main1 {
-  background: linear-gradient(-60deg, #0d6bad, #28eda7, #e73c7e, #f54ca4);
+  /* background: linear-gradient(-60deg, #0d6bad, #28eda7, #e73c7e, #f54ca4); */
+  background-image: url('../components/JackSonSilva_beautiful_weather_dark_background_only_no_wording__e4204c53-08e1-4f9c-a9c7-aba337f2fa3a.png');
   width: 100%;
   height: 100%;
   padding: 150px 0 100px 0;
